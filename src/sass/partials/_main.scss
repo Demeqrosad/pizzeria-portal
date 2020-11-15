@@ -1,0 +1,34 @@
+.main-wrapper
+{
+  &.container
+  {
+    background-color: white;
+  }
+}
+
+.card
+{
+  position: relative;
+  height: 150px;
+}
+
+.card-body
+{
+  background-color: none;
+  color: white;
+}
+
+.card-01
+{
+  background-image: url("../images/pizza-1.jpg");
+}
+
+.card-02
+{
+  background-image: url("../images/pizza-2.jpg");
+}
+
+.card-03
+{
+  background-color: $color-main;
+}
