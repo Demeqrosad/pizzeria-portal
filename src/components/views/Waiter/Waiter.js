@@ -2,6 +2,7 @@ import React from 'react';
 //import PropTypes from 'prop-types';
 import styles from './Waiter.scss';
 import {Link} from 'react-router-dom';
+import { Button } from '@material-ui/core';
 
 const orderList = [
 	{id: '123abc'},
